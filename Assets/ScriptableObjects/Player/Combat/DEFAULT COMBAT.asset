@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c73a31b770142dc489e211bac424abf5, type: 3}
+  m_Name: DEFAULT COMBAT
+  m_EditorClassIdentifier: 
+  AttackRadius: 1
+  TagsToAttack:
+  - Enemy
+  LightAttacks:
+  - {fileID: 11400000, guid: d6bb70442482a08488d3deaad742d234, type: 2}
+  - {fileID: 11400000, guid: f687d7defa2aa3048a2c9ce9e48ec0dd, type: 2}
+  - {fileID: 11400000, guid: b163d7a387b56a244bc8e3cf9e9faee0, type: 2}
+  HeavyAttackData: {fileID: 11400000, guid: 1b6883af8b8069249964ef482fa563dc, type: 2}
+  ParryData: {fileID: 11400000, guid: 8d7555e50e068c746a2d28e49ea1a9bd, type: 2}
+  BlockRate: 0.5
+  ParryTime: 0.5
+  GetKnockbackCooldown: 1
